@@ -1,0 +1,112 @@
+.register{
+    height:100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(225, 232, 244);
+}
+.registerWrapper{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+}
+.registerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-right: 20px;
+}
+.registerRight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    align-items: center;
+    width: 400px;
+}
+.registerLogo{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: rgb(32, 132, 238);
+}
+.registerText{
+    font-size: 20px;
+}
+.registerUsername{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    margin: 0px 10px 10px 10px;
+}
+.registerUsername:focus{
+    outline: none;
+}
+.registerEmail{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    margin: 10px;
+}
+.registerEmail:focus{
+    outline: none;
+}
+.registerPassword{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-color:gainsboro;
+    margin: 10px;
+}
+.registerPassword:focus{
+    outline: none;
+}
+.registerPasswordAgain{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-color:gainsboro;
+    margin: 10px;
+}
+.registerPasswordAgain:focus{
+    outline: none;
+}
+.registerButton{
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    width: 100%;
+    border: none;
+    background-color: rgb(19, 104, 184);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.logInto{
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(18, 204, 36);
+    cursor: pointer;
+
+}
+.registerButtonDiv{
+    width: 50%;
+    margin: 10px;
+}

@@ -1,0 +1,105 @@
+.login{
+    height:100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(225, 232, 244);
+}
+.loginWrapper{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+}
+.loginLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-right: 20px;
+}
+.loginRight{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    align-items: center;
+    width: 450px;
+}
+.loginLogo{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: rgb(32, 132, 238);
+}
+.loginText{
+    font-size: 20px;
+}
+.loginEmail{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    margin: 0px 10px 10px 10px;
+}
+.loginEmail:focus{
+    outline: none;
+}
+.loginPassword{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border-color:gainsboro;
+    margin: 10px;
+}
+.loginPassword:focus{
+    outline: none;
+}
+.loginButton{
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    width: 100%;
+    border: none;
+    background-color: rgb(19, 104, 184);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.loginButton:disabled{
+    cursor:not-allowed;
+}
+.createNew{
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(18, 204, 36);
+    cursor: pointer;
+
+}
+.createNew:disabled{
+    cursor: not-allowed;
+}
+.loginPasswordReset{
+    font-size: 18px;
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.loginPasswordReset:hover{
+    color: rgb(80, 148, 237);
+}
+.loginButtonDiv{
+    width: 50%;
+    margin: 10px;
+}
